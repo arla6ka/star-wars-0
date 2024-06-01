@@ -15,7 +15,7 @@ const app = express();
 
 
 app.use(cors({
-    origin: ["https://star-wars-0-front.vercel.app/" , "https://star-wars-0.vercel.app/api/search"],
+    origin: ["https://star-wars-0-front.vercel.app/"],
     methods: ["POST", "GET"],
     credentials: true
 }));
