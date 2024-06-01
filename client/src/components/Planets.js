@@ -8,7 +8,7 @@ const Planets = () => {
   useEffect(() => {
     const fetchPlanets = async () => {
       try {
-        const response = await axios.get('https://star-wars-1.vercel.app/api/planets');
+        const response = await axios.get('https://star-wars-0.vercel.app/api/planets');
         setPlanets(response.data);
       } catch (error) {
         console.error('Error fetching planets:', error);
