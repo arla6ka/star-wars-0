@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-axios.defaults.withCredentials = true;
+
 const Planets = () => {
   const [planets, setPlanets] = useState([]);
   const [loading, setLoading] = useState(true);
