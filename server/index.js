@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 5000;
 
 
 app.use(cors({
-    origin: ["https://star-wars-0-front.vercel.app/"],
+    origin: ["https://star-wars-0-front.vercel.app/" , "https://star-wars-0.vercel.app/api/search"],
     methods: ["POST", "GET"],
     credentials: true
 }));
