@@ -12,7 +12,7 @@ const app = express();
 
 
 app.use(cors({
-    origin: ["https://star-wars-1-q1ct.vercel.app"],
+    origin: ["https://star-wars-0-front.vercel.app/"],
     methods: ["POST", "GET"],
     credentials: true
 }));
