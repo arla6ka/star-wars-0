@@ -7,7 +7,7 @@ const Search = () => {
 
   const handleSearch = async () => {
     try {
-      const response = await axios.get(`https://star-wars-1.vercel.app/api/search?query=${query}`);
+      const response = await axios.get(`https://star-wars-0.vercel.app/api/search?query=${query}`);
       setResults(response.data);
     } catch (error) {
       console.error('Error fetching search results:', error);
